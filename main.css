@@ -1,0 +1,106 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: no-repeat center url("paper-background.jpg");
+}
+
+.container {
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 8, 20, 0.8);
+    color: #fff;
+    border: 2px outset #fff;
+    border-radius: 16px;
+    min-width: 420px;
+    position: absolute;
+    min-height: 120px;
+    transform: translate(-50%, -50%);
+}
+
+.container h3 {
+    text-align: center;
+    padding-top: 24px;
+}
+
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input {
+    width: 75%;
+    height: 45px;
+    padding: 16px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #ffc300;
+
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    font-weight: 800;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffc300;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 8px;
+}
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    display: flex;
+    color: #fff;
+}
+
+.task span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.task button {
+    background-color: #ffc300;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 32px;
+    border-radius: 8px;
+}
